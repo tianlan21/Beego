@@ -9,6 +9,7 @@ import (
 
 	"github.com/astaxie/beego"
 	"github.com/dgrijalva/jwt-go"
+	"fmt"
 )
 
 // RoleController definiton.
@@ -18,6 +19,7 @@ type RoleController struct {
 
 // Auth method.
 func (c *RoleController) Auth() {
+	fmt.Printf("enter authorization\n")
 	form := models.RoleAuthForm{}
 	err := json.Unmarshal(c.Ctx.Input.RequestBody, &form)
 	if err != nil {
@@ -65,6 +67,7 @@ func (c *RoleController) Auth() {
 
 // Post method.
 func (c *RoleController) Post() {
+	fmt.Printf("enter admin\n")
 	token, e := c.ParseToken()
 	if e != nil {
 		c.RetError(e)
@@ -145,10 +148,10 @@ func (c *RoleController) GetOne() {
 
 // GetAll method.
 func (c *RoleController) GetAll() {
-	if _, e := c.ParseToken(); e != nil {
-		c.RetError(e)
-		return
-	}
+	//if _, e := c.ParseToken(); e != nil {
+	//	c.RetError(e)
+	//	return
+	//}
 
 	queryVal, queryOp, err := c.ParseQueryParm()
 	if err != nil {

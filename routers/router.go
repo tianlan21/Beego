@@ -8,6 +8,8 @@ import (
 
 func init() {
 	beego.Router("/", &controllers.MainController{})
+	beego.Router("/login", &controllers.LoginController{})
+	beego.Router("/register", &controllers.RegisterController{})
 	ns := beego.NewNamespace("/v1",
 		beego.NSNamespace("/users",
 			beego.NSRouter("/register", &controllers.UserController{}, "post:Register"),

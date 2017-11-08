@@ -8,6 +8,7 @@ import (
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/validation"
 	"github.com/dgrijalva/jwt-go"
+	"fmt"
 )
 
 // Predefined const error strings.
@@ -194,6 +195,7 @@ func (base *BaseController) VerifyForm(obj interface{}) (err error) {
 // ParseToken parse JWT token in http header.
 func (base *BaseController) ParseToken() (t *jwt.Token, e *ControllerError) {
 	authString := base.Ctx.Input.Header("Authorization")
+	fmt.Printf("Authorization=%s\n",authString)
 	beego.Debug("AuthString:", authString)
 
 	kv := strings.Split(authString, " ")

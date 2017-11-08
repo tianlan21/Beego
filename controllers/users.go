@@ -60,7 +60,7 @@ func (c *UserController) Register() {
 
 	go models.IncTotalUserCount(regDate)
 
-	c.Data["json"] = models.NewNormalInfo("Succes")
+	c.Data["json"] = models.NewNormalInfo("Success")
 	c.ServeJSON()
 }
 
