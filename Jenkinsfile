@@ -1,20 +1,13 @@
-Jenkinsfile (Declarative Pipeline)
 pipeline {
     agent any
     stages {
         stage('Build') {
             steps {
-                echo 'Building'
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Testing'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying'
+                sh 'echo "Hello World"'
+                sh '''
+                    echo "Multiline shell steps works too"
+                    ls -lah
+                '''
             }
         }
     }
