@@ -19,14 +19,14 @@ pipeline {
 		    steps { 
 			    script {
                     echo 'Hello World 1'
-					} 
-		} 
-	}
+                }
+		    } 
+	    }
         stage ('Invoke pipeline jobs') {
             steps {
             	script {
                     echo 'Hello World 2'
-					}
+				
 				}
             }
         }
