@@ -19,7 +19,6 @@ type RoleController struct {
 
 // Auth method.
 func (c *RoleController) Auth() {
-	fmt.Printf("enter authorization\n")
 	form := models.RoleAuthForm{}
 	err := json.Unmarshal(c.Ctx.Input.RequestBody, &form)
 	if err != nil {
