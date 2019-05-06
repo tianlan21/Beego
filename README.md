@@ -1,6 +1,6 @@
 # beego-demo
 
-ccdd
+ccddee
 A web demo using Beego framework, with MongoDB, MySQL and Redis support.
 
 这是一个基于 [Beego](http://beego.me) 框架构建的应用 demo，后台数据库使用 [MongoDB](http://www.mongodb.org) 和 [MySQL](http://www.mysql.com)，并使用 [Redis](http://redis.io) 存储 session 和一些统计数据。
