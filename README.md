@@ -1,6 +1,7 @@
 # beego-demo
 
 
+a
 
 A web demo using Beego framework, with MongoDB, MySQL and Redis support.
 
