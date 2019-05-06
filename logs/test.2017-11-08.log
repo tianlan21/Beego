@@ -1,0 +1,305 @@
+2017/11/07 15:24:05 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|     455.14µs|   match|[44m GET     [0m /     r:/
+2017/11/07 15:24:05 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|    135.698µs| nomatch|[44m GET     [0m /favicon.ico
+2017/11/07 15:24:56 [D] [common.go:197] AuthString:  
+2017/11/07 15:24:56 [E] [common.go:201] AuthString invalid:  
+2017/11/07 15:25:50 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|     68.863µs| nomatch|[44m GET     [0m /v1/users/login
+2017/11/07 15:26:05 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|     69.163µs|   match|[44m GET     [0m /v1/users/downloads   r:/v1/users/downloads
+2017/11/07 15:26:31 [D] [common.go:197] AuthString:  
+2017/11/07 15:26:31 [E] [common.go:201] AuthString invalid:  
+2017/11/07 15:26:47 [D] [common.go:197] AuthString:  
+2017/11/07 15:26:47 [E] [common.go:201] AuthString invalid:  
+2017/11/07 15:26:52 [D] [common.go:197] AuthString:  
+2017/11/07 15:26:52 [E] [common.go:201] AuthString invalid:  
+2017/11/07 15:29:30 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|     858.02µs| nomatch|[44m GET     [0m /v1/
+2017/11/07 15:29:36 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|     75.125µs| nomatch|[44m GET     [0m /v1
+2017/11/07 15:29:40 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    659.357µs|   match|[44m GET     [0m /     r:/
+2017/11/07 15:29:51 [D] [common.go:197] AuthString:  
+2017/11/07 15:29:51 [E] [common.go:201] AuthString invalid:  
+2017/11/07 15:32:06 [C] [asm_amd64.s:2197] ListenAndServe:  accept tcp [::]:8080: use of closed network connection 21616
+2017/11/08 10:37:38 [C] [asm_amd64.s:2197] ListenAndServe:  accept tcp [::]:8080: use of closed network connection 35513
+2017/11/08 10:38:27 [D] [common.go:197] AuthString:  
+2017/11/08 10:38:27 [E] [common.go:201] AuthString invalid:  
+2017/11/08 10:38:28 [D] [common.go:197] AuthString:  
+2017/11/08 10:38:28 [E] [common.go:201] AuthString invalid:  
+2017/11/08 10:38:56 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|    380.404µs| nomatch|[44m GET     [0m /v1/users/register
+2017/11/08 10:39:09 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|     352.01µs|   match|[44m GET     [0m /v1/users/downloads   r:/v1/users/downloads
+2017/11/08 10:39:27 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|    441.766µs| nomatch|[44m GET     [0m /v1/
+2017/11/08 10:39:41 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|    365.196µs| nomatch|[44m GET     [0m /information
+2017/11/08 10:39:47 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    988.179µs|   match|[44m GET     [0m /     r:/
+2017/11/08 10:41:36 [D] [common.go:197] AuthString:  
+2017/11/08 10:41:36 [E] [common.go:201] AuthString invalid:  
+2017/11/08 10:41:52 [D] [common.go:197] AuthString:  
+2017/11/08 10:41:52 [E] [common.go:201] AuthString invalid:  
+2017/11/08 10:51:05 [D] [common.go:197] AuthString:  
+2017/11/08 10:51:05 [E] [common.go:201] AuthString invalid:  
+2017/11/08 10:55:06 [C] [asm_amd64.s:2197] ListenAndServe:  net.Listen error: listen tcp :8080: bind: address already in use 35817
+2017/11/08 10:55:16 [C] [asm_amd64.s:2197] ListenAndServe:  accept tcp [::]:8080: use of closed network connection 35807
+2017/11/08 10:55:24 [C] [asm_amd64.s:514] the request url is  /
+2017/11/08 10:55:24 [C] [asm_amd64.s:514] Handler crashed with error can't find templatefile in the path:views/login.html
+2017/11/08 10:55:24 [C] [asm_amd64.s:514] /usr/local/go/src/runtime/asm_amd64.s:514
+2017/11/08 10:55:24 [C] [asm_amd64.s:514] /usr/local/go/src/runtime/panic.go:489
+2017/11/08 10:55:24 [C] [asm_amd64.s:514] /Users/liumingyang/go/src/beego-demo/vendor/github.com/astaxie/beego/template.go:73
+2017/11/08 10:55:24 [C] [asm_amd64.s:514] /Users/liumingyang/go/src/beego-demo/vendor/github.com/astaxie/beego/controller.go:263
+2017/11/08 10:55:24 [C] [asm_amd64.s:514] /Users/liumingyang/go/src/beego-demo/vendor/github.com/astaxie/beego/controller.go:214
+2017/11/08 10:55:24 [C] [asm_amd64.s:514] /Users/liumingyang/go/src/beego-demo/vendor/github.com/astaxie/beego/controller.go:194
+2017/11/08 10:55:24 [C] [asm_amd64.s:514] /Users/liumingyang/go/src/beego-demo/controllers/default.go:17
+2017/11/08 10:55:24 [C] [asm_amd64.s:514] /Users/liumingyang/go/src/beego-demo/vendor/github.com/astaxie/beego/router.go:798
+2017/11/08 10:55:24 [C] [asm_amd64.s:514] /usr/local/go/src/net/http/server.go:2568
+2017/11/08 10:55:24 [C] [asm_amd64.s:514] /usr/local/go/src/net/http/server.go:1825
+2017/11/08 10:55:24 [C] [asm_amd64.s:514] /usr/local/go/src/runtime/asm_amd64.s:2197
+2017/11/08 10:57:03 [C] [asm_amd64.s:2197] ListenAndServe:  accept tcp [::]:8080: use of closed network connection 35855
+2017/11/08 10:57:57 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    784.615µs|   match|[44m GET     [0m /     r:/
+2017/11/08 10:58:00 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|     304.82µs|   match|[44m GET     [0m /     r:/
+2017/11/08 10:58:04 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    346.405µs|   match|[44m GET     [0m /     r:/
+2017/11/08 10:58:09 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    476.005µs|   match|[44m GET     [0m /     r:/
+2017/11/08 10:59:35 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.003541ms|   match|[44m GET     [0m /     r:/
+2017/11/08 10:59:40 [D] [users.go:76] ParseLoginForm: &{13508712076 12345678} 
+2017/11/08 10:59:40 [E] [users.go:87] FindUserById: not found 
+2017/11/08 10:59:40 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  25.336471ms|   match|[46m POST    [0m /v1/users/login   r:/v1/users/login
+2017/11/08 11:00:14 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.813322ms|   match|[44m GET     [0m /     r:/
+2017/11/08 11:00:20 [D] [users.go:31] ParseRegsiterForm: &{13508712076 张三 12345678} 
+2017/11/08 11:00:20 [D] [users.go:48] NewUser: &{13508712076 张三 47eb3087f3fa6cc7bb3d07c278c10237d24de67297fa0ce37f9e81c2036c020206096e064353c0315453b4b8cfadc66634d48a1b3c4cff8f0566dc0ffe4afa45 12c662cdb66016f092a02b51e321934736ae91e2487837f1fb6c7c5a7a8aecb8c94158d02f7d1c0555403e206e1c55342d546700dabbf8b87489f0e45f377195 2017-11-08 11:00:20.082471052 +0800 CST} 
+2017/11/08 11:00:20 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m| 128.255788ms|   match|[46m POST    [0m /v1/users/register   r:/v1/users/register
+2017/11/08 11:00:20 [D] [statistics.go:32] MULTI HINCRBY for new user registeration reply: [1 1 1 1] 
+2017/11/08 11:16:43 [C] [asm_amd64.s:2197] ListenAndServe:  accept tcp [::]:8080: use of closed network connection 36147
+2017/11/08 11:16:58 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.246016ms|   match|[44m GET     [0m /login   r:/login
+2017/11/08 11:17:02 [D] [users.go:76] ParseLoginForm: &{13508712076 12345678} 
+2017/11/08 11:17:02 [D] [users.go:96] UserInfo: &{13508712076 张三 47eb3087f3fa6cc7bb3d07c278c10237d24de67297fa0ce37f9e81c2036c020206096e064353c0315453b4b8cfadc66634d48a1b3c4cff8f0566dc0ffe4afa45 12c662cdb66016f092a02b51e321934736ae91e2487837f1fb6c7c5a7a8aecb8c94158d02f7d1c0555403e206e1c55342d546700dabbf8b87489f0e45f377195 2017-11-08 11:00:20.082 +0800 CST} 
+2017/11/08 11:17:02 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  62.670805ms|   match|[46m POST    [0m /v1/users/login   r:/v1/users/login
+2017/11/08 11:17:27 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    585.062µs|   match|[44m GET     [0m /register   r:/register
+2017/11/08 11:17:37 [D] [users.go:31] ParseRegsiterForm: &{1 1 1} 
+2017/11/08 11:17:37 [D] [users.go:34] ValidRegsiterForm: Phone.Mobile:Must be valid mobile number; 
+2017/11/08 11:17:37 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    533.008µs|   match|[46m POST    [0m /v1/users/register   r:/v1/users/register
+2017/11/08 11:17:46 [D] [users.go:31] ParseRegsiterForm: &{13508712076 liu 12345678} 
+2017/11/08 11:17:46 [D] [users.go:48] NewUser: &{13508712076 liu 51d4c46eb2b8a433616a94d7483c277960d620dff87bed0450469d844a3dadd987f4e4094e6741209fa269ad3c57ca08998b4f5b8c63a75b7231186f8244e658 3affbad8594b8e12a0c93b489a3c54c6b11906fd98460ea107ea9740d2d5f01e8b4b627a7f3c6be078372e4e5ec3e21183a28d30095fd997384ceb28b76eaea2 2017-11-08 11:17:46.190878066 +0800 CST} 
+2017/11/08 11:17:46 [E] [users.go:51] InsertUser: E11000 duplicate key error collection: beego-demo.users index: _id_ dup key: { : "13508712076" } 
+2017/11/08 11:17:46 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  56.490795ms|   match|[46m POST    [0m /v1/users/register   r:/v1/users/register
+2017/11/08 11:17:52 [D] [users.go:31] ParseRegsiterForm: &{19 liu 12345678} 
+2017/11/08 11:17:52 [D] [users.go:34] ValidRegsiterForm: Phone.Mobile:Must be valid mobile number; 
+2017/11/08 11:17:52 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    507.772µs|   match|[46m POST    [0m /v1/users/register   r:/v1/users/register
+2017/11/08 11:18:01 [D] [users.go:31] ParseRegsiterForm: &{18810300531 liu 1234} 
+2017/11/08 11:18:01 [D] [users.go:48] NewUser: &{18810300531 liu 445fa470d1ead0be2474a85b8f9a7e85523318ab726f108784b9cc09d3bc6e4ef56d996cf97a543b7345bf8663c3d0cd33c385b29501108eae7d656a69043a58 476eacf5d88c505d1212179bb6ac754546e0d8806e83214ab377a99cd07b525bd2f912b4d836807b7c657cd8686e68a73d4e7874e4e3bf2a2f1809c9ea0d12e5 2017-11-08 11:18:01.2329691 +0800 CST} 
+2017/11/08 11:18:01 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  47.596405ms|   match|[46m POST    [0m /v1/users/register   r:/v1/users/register
+2017/11/08 11:18:01 [D] [statistics.go:32] MULTI HINCRBY for new user registeration reply: [2 2 2 2] 
+2017/11/08 11:18:10 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    585.484µs|   match|[44m GET     [0m /login   r:/login
+2017/11/08 11:18:15 [D] [users.go:76] ParseLoginForm: &{18810300531 12345678} 
+2017/11/08 11:18:15 [D] [users.go:96] UserInfo: &{18810300531 liu 445fa470d1ead0be2474a85b8f9a7e85523318ab726f108784b9cc09d3bc6e4ef56d996cf97a543b7345bf8663c3d0cd33c385b29501108eae7d656a69043a58 476eacf5d88c505d1212179bb6ac754546e0d8806e83214ab377a99cd07b525bd2f912b4d836807b7c657cd8686e68a73d4e7874e4e3bf2a2f1809c9ea0d12e5 2017-11-08 11:18:01.232 +0800 CST} 
+2017/11/08 11:18:15 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  46.481228ms|   match|[46m POST    [0m /v1/users/login   r:/v1/users/login
+2017/11/08 11:18:20 [D] [users.go:76] ParseLoginForm: &{18810300531 1234} 
+2017/11/08 11:18:20 [D] [users.go:96] UserInfo: &{18810300531 liu 445fa470d1ead0be2474a85b8f9a7e85523318ab726f108784b9cc09d3bc6e4ef56d996cf97a543b7345bf8663c3d0cd33c385b29501108eae7d656a69043a58 476eacf5d88c505d1212179bb6ac754546e0d8806e83214ab377a99cd07b525bd2f912b4d836807b7c657cd8686e68a73d4e7874e4e3bf2a2f1809c9ea0d12e5 2017-11-08 11:18:01.232 +0800 CST} 
+2017/11/08 11:18:20 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   52.52583ms|   match|[46m POST    [0m /v1/users/login   r:/v1/users/login
+2017/11/08 11:24:09 [D] [common.go:197] AuthString:  
+2017/11/08 11:24:09 [E] [common.go:201] AuthString invalid:  
+2017/11/08 11:26:21 [D] [common.go:197] AuthString:  
+2017/11/08 11:26:21 [E] [common.go:201] AuthString invalid:  
+2017/11/08 11:26:22 [D] [common.go:197] AuthString:  
+2017/11/08 11:26:22 [E] [common.go:201] AuthString invalid:  
+2017/11/08 11:26:22 [D] [common.go:197] AuthString:  
+2017/11/08 11:26:22 [E] [common.go:201] AuthString invalid:  
+2017/11/08 11:26:23 [D] [common.go:197] AuthString:  
+2017/11/08 11:26:23 [E] [common.go:201] AuthString invalid:  
+2017/11/08 11:34:54 [D] [common.go:197] AuthString:  
+2017/11/08 11:34:54 [E] [common.go:201] AuthString invalid:  
+2017/11/08 11:39:38 [D] [common.go:197] AuthString:  
+2017/11/08 11:39:38 [E] [common.go:201] AuthString invalid:  
+2017/11/08 11:48:43 [D] [roles.go:26] ParseRoleAuth: unexpected end of JSON input 
+2017/11/08 11:50:24 [D] [roles.go:30] ParseRoleAuth: &{1 admin } 
+2017/11/08 11:50:24 [D] [roles.go:42] RoleInfo: &{1 admin admin 2017-11-07 15:00:47 +0800 CST} 
+2017/11/08 11:51:14 [D] [roles.go:30] ParseRoleAuth: &{1 admin admin} 
+2017/11/08 11:51:14 [D] [roles.go:42] RoleInfo: &{1 admin admin 2017-11-07 15:00:47 +0800 CST} 
+2017/11/08 11:51:14 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    983.815µs|   match|[46m POST    [0m /v1/roles/auth   r:/v1/roles/auth
+2017/11/08 11:53:33 [D] [roles.go:30] ParseRoleAuth: &{2 a a} 
+2017/11/08 11:53:33 [D] [roles.go:42] RoleInfo: &{2 a a 2017-11-08 11:25:40 +0800 CST} 
+2017/11/08 11:53:33 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    911.263µs|   match|[46m POST    [0m /v1/roles/auth   r:/v1/roles/auth
+2017/11/08 11:56:35 [D] [common.go:197] AuthString: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAxOTk0NzQsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.kj92jJDluaFHbMNDQ9RUgdhPaFbfF8W2YKX5SGZ_f3s 
+2017/11/08 11:56:35 [E] [common.go:201] AuthString invalid: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAxOTk0NzQsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.kj92jJDluaFHbMNDQ9RUgdhPaFbfF8W2YKX5SGZ_f3s 
+2017/11/08 11:56:44 [D] [common.go:197] AuthString: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAxOTk0NzQsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.kj92jJDluaFHbMNDQ9RUgdhPaFbfF8W2YKX5SGZ_f3s 
+2017/11/08 11:56:44 [E] [common.go:201] AuthString invalid: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAxOTk0NzQsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.kj92jJDluaFHbMNDQ9RUgdhPaFbfF8W2YKX5SGZ_f3s 
+2017/11/08 14:10:15 [D] [common.go:197] AuthString: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAxOTk0NzQsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.kj92jJDluaFHbMNDQ9RUgdhPaFbfF8W2YKX5SGZ_f3s 
+2017/11/08 14:10:15 [E] [common.go:201] AuthString invalid: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAxOTk0NzQsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.kj92jJDluaFHbMNDQ9RUgdhPaFbfF8W2YKX5SGZ_f3s 
+2017/11/08 14:12:45 [D] [roles.go:30] ParseRoleAuth: &{1 admin admin} 
+2017/11/08 14:12:45 [D] [roles.go:42] RoleInfo: &{1 admin admin 2017-11-07 15:00:47 +0800 CST} 
+2017/11/08 14:12:45 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    988.491µs|   match|[46m POST    [0m /v1/roles/auth   r:/v1/roles/auth
+2017/11/08 14:12:47 [D] [roles.go:30] ParseRoleAuth: &{1 admin admin} 
+2017/11/08 14:12:47 [D] [roles.go:42] RoleInfo: &{1 admin admin 2017-11-07 15:00:47 +0800 CST} 
+2017/11/08 14:12:47 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    881.327µs|   match|[46m POST    [0m /v1/roles/auth   r:/v1/roles/auth
+2017/11/08 14:13:12 [D] [common.go:197] AuthString: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDc5NjcsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.6m-BZQNUryLspKOTOlu7_OfbX97YgfcvpvEOFRCQzrA 
+2017/11/08 14:13:12 [E] [common.go:201] AuthString invalid: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDc5NjcsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.6m-BZQNUryLspKOTOlu7_OfbX97YgfcvpvEOFRCQzrA 
+2017/11/08 14:14:54 [D] [roles.go:30] ParseRoleAuth: &{1 admin admin} 
+2017/11/08 14:14:54 [D] [roles.go:42] RoleInfo: &{1 admin admin 2017-11-07 15:00:47 +0800 CST} 
+2017/11/08 14:14:54 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.363034ms|   match|[46m POST    [0m /v1/roles/auth   r:/v1/roles/auth
+2017/11/08 14:15:10 [D] [common.go:197] AuthString: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDgwOTQsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.Yd8qwab-IRMXg59hl6OrG2ZNrIOSySMmv8pd3UpL8qg 
+2017/11/08 14:15:10 [E] [common.go:201] AuthString invalid: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDgwOTQsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.Yd8qwab-IRMXg59hl6OrG2ZNrIOSySMmv8pd3UpL8qg 
+2017/11/08 14:17:39 [D] [common.go:197] AuthString: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDgwOTQsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.Yd8qwab-IRMXg59hl6OrG2ZNrIOSySMmv8pd3UpL8qg 
+2017/11/08 14:17:39 [E] [common.go:201] AuthString invalid: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDgwOTQsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.Yd8qwab-IRMXg59hl6OrG2ZNrIOSySMmv8pd3UpL8qg 
+2017/11/08 14:20:13 [D] [roles.go:30] ParseRoleAuth: &{2 aa a} 
+2017/11/08 14:20:13 [D] [roles.go:42] RoleInfo: &{2 a a 2017-11-08 11:25:40 +0800 CST} 
+2017/11/08 14:20:37 [D] [common.go:197] AuthString: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDgwOTQsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.Yd8qwab-IRMXg59hl6OrG2ZNrIOSySMmv8pd3UpL8qg 
+2017/11/08 14:20:37 [E] [common.go:201] AuthString invalid: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDgwOTQsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.Yd8qwab-IRMXg59hl6OrG2ZNrIOSySMmv8pd3UpL8qg 
+2017/11/08 14:20:55 [D] [common.go:197] AuthString: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDgwOTQsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.Yd8qwab-IRMXg59hl6OrG2ZNrIOSySMmv8pd3UpL8qg 
+2017/11/08 14:20:55 [E] [common.go:201] AuthString invalid: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDgwOTQsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.Yd8qwab-IRMXg59hl6OrG2ZNrIOSySMmv8pd3UpL8qg 
+2017/11/08 14:26:50 [D] [roles.go:30] ParseRoleAuth: &{2 aa a} 
+2017/11/08 14:26:50 [D] [roles.go:42] RoleInfo: &{2 a a 2017-11-08 11:25:40 +0800 CST} 
+2017/11/08 14:26:55 [D] [roles.go:30] ParseRoleAuth: &{2 a a} 
+2017/11/08 14:26:55 [D] [roles.go:42] RoleInfo: &{2 a a 2017-11-08 11:25:40 +0800 CST} 
+2017/11/08 14:26:55 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    839.598µs|   match|[46m POST    [0m /v1/roles/auth   r:/v1/roles/auth
+2017/11/08 14:27:05 [D] [common.go:197] AuthString: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDg4MTUsImlkIjoiMiIsIm5hbWUiOiJhIn0.F4eDNHFtt45zkg6-XIXI8V7Tfs8BHImrdOmUQxwWAXE 
+2017/11/08 14:27:05 [E] [common.go:201] AuthString invalid: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDg4MTUsImlkIjoiMiIsIm5hbWUiOiJhIn0.F4eDNHFtt45zkg6-XIXI8V7Tfs8BHImrdOmUQxwWAXE 
+2017/11/08 14:27:34 [D] [common.go:197] AuthString: Basic YWRtaW46YWRtaW4= 
+2017/11/08 14:27:34 [E] [common.go:201] AuthString invalid: Basic YWRtaW46YWRtaW4= 
+2017/11/08 14:28:12 [D] [common.go:197] AuthString: Basic YWRtaW46YWRtaW4= 
+2017/11/08 14:28:12 [E] [common.go:201] AuthString invalid: Basic YWRtaW46YWRtaW4= 
+2017/11/08 14:29:34 [D] [common.go:197] AuthString: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDg4MTUsImlkIjoiMiIsIm5hbWUiOiJhIn0.F4eDNHFtt45zkg6-XIXI8V7Tfs8BHImrdOmUQxwWAXE 
+2017/11/08 14:29:34 [E] [common.go:201] AuthString invalid: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDg4MTUsImlkIjoiMiIsIm5hbWUiOiJhIn0.F4eDNHFtt45zkg6-XIXI8V7Tfs8BHImrdOmUQxwWAXE 
+2017/11/08 14:29:42 [D] [common.go:197] AuthString: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDg4MTUsImlkIjoiMiIsIm5hbWUiOiJhIn0.F4eDNHFtt45zkg6-XIXI8V7Tfs8BHImrdOmUQxwWAXE 
+2017/11/08 14:29:42 [E] [common.go:201] AuthString invalid: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDg4MTUsImlkIjoiMiIsIm5hbWUiOiJhIn0.F4eDNHFtt45zkg6-XIXI8V7Tfs8BHImrdOmUQxwWAXE 
+2017/11/08 14:29:50 [D] [roles.go:30] ParseRoleAuth: &{1 admin admin} 
+2017/11/08 14:29:50 [D] [roles.go:42] RoleInfo: &{1 admin admin 2017-11-07 15:00:47 +0800 CST} 
+2017/11/08 14:29:50 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    853.578µs|   match|[46m POST    [0m /v1/roles/auth   r:/v1/roles/auth
+2017/11/08 14:30:09 [D] [common.go:197] AuthString: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDg5OTAsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.sctfGsXg1z7qa2VJVGa2nzAmMthpAzsk5p5TKbxu7WY 
+2017/11/08 14:30:09 [E] [common.go:201] AuthString invalid: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDg5OTAsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.sctfGsXg1z7qa2VJVGa2nzAmMthpAzsk5p5TKbxu7WY 
+2017/11/08 14:30:22 [D] [common.go:197] AuthString: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDg5OTAsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.sctfGsXg1z7qa2VJVGa2nzAmMthpAzsk5p5TKbxu7WY 
+2017/11/08 14:30:22 [E] [common.go:201] AuthString invalid: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDg5OTAsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.sctfGsXg1z7qa2VJVGa2nzAmMthpAzsk5p5TKbxu7WY 
+2017/11/08 14:30:26 [D] [common.go:197] AuthString: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDg5OTAsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.sctfGsXg1z7qa2VJVGa2nzAmMthpAzsk5p5TKbxu7WY 
+2017/11/08 14:30:26 [E] [common.go:201] AuthString invalid: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDg5OTAsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.sctfGsXg1z7qa2VJVGa2nzAmMthpAzsk5p5TKbxu7WY 
+2017/11/08 14:30:30 [D] [common.go:197] AuthString: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDg5OTAsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.sctfGsXg1z7qa2VJVGa2nzAmMthpAzsk5p5TKbxu7WY 
+2017/11/08 14:30:30 [E] [common.go:201] AuthString invalid: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDg5OTAsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.sctfGsXg1z7qa2VJVGa2nzAmMthpAzsk5p5TKbxu7WY 
+2017/11/08 14:32:44 [D] [roles.go:30] ParseRoleAuth: &{2 a a} 
+2017/11/08 14:32:44 [D] [roles.go:42] RoleInfo: &{2 a a 2017-11-08 11:25:40 +0800 CST} 
+2017/11/08 14:32:44 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    889.229µs|   match|[46m POST    [0m /v1/roles/auth   r:/v1/roles/auth
+2017/11/08 14:32:45 [D] [roles.go:30] ParseRoleAuth: &{2 a a} 
+2017/11/08 14:32:45 [D] [roles.go:42] RoleInfo: &{2 a a 2017-11-08 11:25:40 +0800 CST} 
+2017/11/08 14:32:45 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    862.686µs|   match|[46m POST    [0m /v1/roles/auth   r:/v1/roles/auth
+2017/11/08 14:32:46 [D] [roles.go:30] ParseRoleAuth: &{2 a a} 
+2017/11/08 14:32:46 [D] [roles.go:42] RoleInfo: &{2 a a 2017-11-08 11:25:40 +0800 CST} 
+2017/11/08 14:32:46 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    885.542µs|   match|[46m POST    [0m /v1/roles/auth   r:/v1/roles/auth
+2017/11/08 14:32:48 [D] [roles.go:30] ParseRoleAuth: &{2 a a} 
+2017/11/08 14:32:48 [D] [roles.go:42] RoleInfo: &{2 a a 2017-11-08 11:25:40 +0800 CST} 
+2017/11/08 14:32:48 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    963.946µs|   match|[46m POST    [0m /v1/roles/auth   r:/v1/roles/auth
+2017/11/08 14:32:49 [D] [roles.go:30] ParseRoleAuth: &{2 a a} 
+2017/11/08 14:32:49 [D] [roles.go:42] RoleInfo: &{2 a a 2017-11-08 11:25:40 +0800 CST} 
+2017/11/08 14:32:49 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.053442ms|   match|[46m POST    [0m /v1/roles/auth   r:/v1/roles/auth
+2017/11/08 14:33:07 [D] [roles.go:30] ParseRoleAuth: &{1 admin admin} 
+2017/11/08 14:33:07 [D] [roles.go:42] RoleInfo: &{1 admin admin 2017-11-07 15:00:47 +0800 CST} 
+2017/11/08 14:33:07 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.537347ms|   match|[46m POST    [0m /v1/roles/auth   r:/v1/roles/auth
+2017/11/08 14:33:31 [D] [common.go:197] AuthString: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDkxODcsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9 .yH5ewdSoq0U1H95U7kC3y3Tf_LCqurzFWRTvNLqaiOk 
+2017/11/08 14:33:31 [E] [common.go:201] AuthString invalid: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDkxODcsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9 .yH5ewdSoq0U1H95U7kC3y3Tf_LCqurzFWRTvNLqaiOk 
+2017/11/08 14:33:45 [D] [common.go:197] AuthString: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDkxODcsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.yH5ewdSoq0U1H95U7kC3y3Tf_LCqurzFWRTvNLqaiOk 
+2017/11/08 14:33:45 [E] [common.go:201] AuthString invalid: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDkxODcsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.yH5ewdSoq0U1H95U7kC3y3Tf_LCqurzFWRTvNLqaiOk 
+2017/11/08 14:34:09 [D] [common.go:197] AuthString: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDkxODcsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.yH5ewdSoq0U1H95U7kC3y3Tf_LCqurzFWRTvNLqaiOk 
+2017/11/08 14:34:09 [E] [common.go:201] AuthString invalid: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDkxODcsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.yH5ewdSoq0U1H95U7kC3y3Tf_LCqurzFWRTvNLqaiOk 
+2017/11/08 14:34:25 [D] [common.go:197] AuthString: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDkxODcsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.yH5ewdSoq0U1H95U7kC3y3Tf_LCqurzFWRTvNLqaiOk 
+2017/11/08 14:34:25 [E] [common.go:201] AuthString invalid: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMDkxODcsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.yH5ewdSoq0U1H95U7kC3y3Tf_LCqurzFWRTvNLqaiOk 
+2017/11/08 14:35:51 [D] [roles.go:162] QueryVal: map[] 
+2017/11/08 14:35:51 [D] [roles.go:163] QueryOp: map[] 
+2017/11/08 14:35:51 [D] [roles.go:171] Order: map[] 
+2017/11/08 14:35:51 [D] [roles.go:181] Limit: 10 
+2017/11/08 14:35:51 [D] [roles.go:191] Offset: 0 
+2017/11/08 14:35:51 [D] [roles.go:148] sqlStr: SELECT id, name, password, reg_date FROM roles LIMIT 10 
+2017/11/08 14:35:51 [D] [roles.go:199] GetAllRole: &[{1 admin admin 2017-11-07 15:00:47 +0800 CST} {2 a a 2017-11-08 11:25:40 +0800 CST} {3 b b 2017-11-08 11:25:51 +0800 CST}] 
+2017/11/08 14:35:51 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.482166ms|   match|[44m GET     [0m /v1/roles   r:/v1/roles/
+2017/11/08 14:43:57 [D] [roles.go:162] QueryVal: map[] 
+2017/11/08 14:43:57 [D] [roles.go:163] QueryOp: map[] 
+2017/11/08 14:43:57 [D] [roles.go:171] Order: map[] 
+2017/11/08 14:43:57 [D] [roles.go:181] Limit: 10 
+2017/11/08 14:43:57 [D] [roles.go:191] Offset: 0 
+2017/11/08 14:43:57 [D] [roles.go:148] sqlStr: SELECT id, name, password, reg_date FROM roles LIMIT 10 
+2017/11/08 14:43:57 [D] [roles.go:199] GetAllRole: &[{1 admin admin 2017-11-07 15:00:47 +0800 CST} {2 a a 2017-11-08 11:25:40 +0800 CST} {3 b b 2017-11-08 11:25:51 +0800 CST}] 
+2017/11/08 14:43:57 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.002089ms|   match|[44m GET     [0m /v1/roles   r:/v1/roles/
+2017/11/08 14:44:08 [D] [common.go:197] AuthString:  
+2017/11/08 14:44:08 [E] [common.go:201] AuthString invalid:  
+2017/11/08 14:45:21 [D] [roles.go:162] QueryVal: map[] 
+2017/11/08 14:45:21 [D] [roles.go:163] QueryOp: map[] 
+2017/11/08 14:45:21 [D] [roles.go:171] Order: map[] 
+2017/11/08 14:45:21 [D] [roles.go:181] Limit: 10 
+2017/11/08 14:45:21 [D] [roles.go:191] Offset: 0 
+2017/11/08 14:45:21 [D] [roles.go:148] sqlStr: SELECT id, name, password, reg_date FROM roles LIMIT 10 
+2017/11/08 14:45:21 [D] [roles.go:199] GetAllRole: &[{1 admin admin 2017-11-07 15:00:47 +0800 CST} {2 a a 2017-11-08 11:25:40 +0800 CST} {3 b b 2017-11-08 11:25:51 +0800 CST}] 
+2017/11/08 14:45:21 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    986.324µs|   match|[44m GET     [0m /v1/roles   r:/v1/roles/
+2017/11/08 14:45:35 [D] [roles.go:162] QueryVal: map[] 
+2017/11/08 14:45:35 [D] [roles.go:163] QueryOp: map[] 
+2017/11/08 14:45:35 [D] [roles.go:171] Order: map[] 
+2017/11/08 14:45:35 [D] [roles.go:181] Limit: 10 
+2017/11/08 14:45:35 [D] [roles.go:191] Offset: 0 
+2017/11/08 14:45:35 [D] [roles.go:148] sqlStr: SELECT id, name, password, reg_date FROM roles LIMIT 10 
+2017/11/08 14:45:35 [D] [roles.go:199] GetAllRole: &[{1 admin admin 2017-11-07 15:00:47 +0800 CST} {2 a a 2017-11-08 11:25:40 +0800 CST} {3 b b 2017-11-08 11:25:51 +0800 CST}] 
+2017/11/08 14:45:35 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    964.381µs|   match|[44m GET     [0m /v1/roles   r:/v1/roles/
+2017/11/08 14:47:33 [D] [roles.go:30] ParseRoleAuth: &{1 admin admin} 
+2017/11/08 14:47:33 [D] [roles.go:42] RoleInfo: &{1 admin admin 2017-11-07 15:00:47 +0800 CST} 
+2017/11/08 14:47:33 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.482065ms|   match|[46m POST    [0m /v1/roles/auth   r:/v1/roles/auth
+2017/11/08 14:47:49 [D] [common.go:199] AuthString: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMTAwNTMsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.dEkCzksmIHP5Dugu9Gg8mVzjFR9hjGlRjJmA-H2FAsw 
+2017/11/08 14:47:49 [E] [common.go:203] AuthString invalid: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMTAwNTMsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.dEkCzksmIHP5Dugu9Gg8mVzjFR9hjGlRjJmA-H2FAsw 
+2017/11/08 14:49:11 [D] [common.go:199] AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMTAwNTMsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.dEkCzksmIHP5Dugu9Gg8mVzjFR9hjGlRjJmA-H2FAsw 
+2017/11/08 14:49:11 [D] [common.go:234] Token: &{eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMTAwNTMsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.dEkCzksmIHP5Dugu9Gg8mVzjFR9hjGlRjJmA-H2FAsw 0xc42018c3e0 map[alg:HS256 typ:JWT] map[exp:1.510210053e+09 id:1 name:admin] dEkCzksmIHP5Dugu9Gg8mVzjFR9hjGlRjJmA-H2FAsw true} 
+2017/11/08 14:49:11 [D] [roles.go:141] RoleInfo: &{1 admin admin 2017-11-07 15:00:47 +0800 CST} 
+2017/11/08 14:49:11 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.042296ms|   match|[44m GET     [0m /v1/roles/1   r:/v1/roles/:id
+2017/11/08 14:51:13 [D] [common.go:199] AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMTAwNTMsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.dEkCzksmIHP5Dugu9Gg8mVzjFR9hjGlRjJmA-H2FAsw 
+2017/11/08 14:51:13 [D] [common.go:234] Token: &{eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMTAwNTMsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.dEkCzksmIHP5Dugu9Gg8mVzjFR9hjGlRjJmA-H2FAsw 0xc42018c3e0 map[alg:HS256 typ:JWT] map[exp:1.510210053e+09 id:1 name:admin] dEkCzksmIHP5Dugu9Gg8mVzjFR9hjGlRjJmA-H2FAsw true} 
+2017/11/08 14:51:13 [D] [roles.go:141] RoleInfo: &{2 a a 2017-11-08 11:25:40 +0800 CST} 
+2017/11/08 14:51:13 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.082264ms|   match|[44m GET     [0m /v1/roles/2   r:/v1/roles/:id
+2017/11/08 14:57:39 [D] [common.go:199] AuthString:  
+2017/11/08 14:57:39 [E] [common.go:203] AuthString invalid:  
+2017/11/08 14:58:10 [D] [common.go:199] AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMTAwNTMsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.dEkCzksmIHP5Dugu9Gg8mVzjFR9hjGlRjJmA-H2FAsw 
+2017/11/08 14:58:10 [D] [common.go:234] Token: &{eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMTAwNTMsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.dEkCzksmIHP5Dugu9Gg8mVzjFR9hjGlRjJmA-H2FAsw 0xc42018c3e0 map[alg:HS256 typ:JWT] map[exp:1.510210053e+09 id:1 name:admin] dEkCzksmIHP5Dugu9Gg8mVzjFR9hjGlRjJmA-H2FAsw true} 
+2017/11/08 14:58:10 [D] [roles.go:94] ParseRolePost: &{4 cc cc} 
+2017/11/08 14:58:10 [D] [roles.go:98] NewRole: &{4 cc cc 2017-11-08 14:58:10.328643386 +0800 CST} 
+2017/11/08 14:58:10 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   2.838158ms|   match|[46m POST    [0m /v1/roles   r:/v1/roles/
+2017/11/08 14:58:15 [D] [common.go:199] AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMTAwNTMsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.dEkCzksmIHP5Dugu9Gg8mVzjFR9hjGlRjJmA-H2FAsw 
+2017/11/08 14:58:15 [D] [common.go:234] Token: &{eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMTAwNTMsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.dEkCzksmIHP5Dugu9Gg8mVzjFR9hjGlRjJmA-H2FAsw 0xc42018c3e0 map[alg:HS256 typ:JWT] map[exp:1.510210053e+09 id:1 name:admin] dEkCzksmIHP5Dugu9Gg8mVzjFR9hjGlRjJmA-H2FAsw true} 
+2017/11/08 14:58:15 [D] [roles.go:94] ParseRolePost: &{4 cc cc} 
+2017/11/08 14:58:15 [D] [roles.go:98] NewRole: &{4 cc cc 2017-11-08 14:58:15.918770873 +0800 CST} 
+2017/11/08 14:58:15 [E] [roles.go:101] InsertRole: Error 1062: Duplicate entry '4' for key 'PRIMARY' 
+2017/11/08 15:23:55 [D] [common.go:199] AuthString: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMTAwNTMsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.dEkCzksmIHP5Dugu9Gg8mVzjFR9hjGlRjJmA-H2FAsw 
+2017/11/08 15:23:55 [D] [common.go:234] Token: &{eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTAyMTAwNTMsImlkIjoiMSIsIm5hbWUiOiJhZG1pbiJ9.dEkCzksmIHP5Dugu9Gg8mVzjFR9hjGlRjJmA-H2FAsw 0xc42018c3e0 map[alg:HS256 typ:JWT] map[exp:1.510210053e+09 id:1 name:admin] dEkCzksmIHP5Dugu9Gg8mVzjFR9hjGlRjJmA-H2FAsw true} 
+2017/11/08 15:23:55 [D] [roles.go:94] ParseRolePost: &{4 cc cc} 
+2017/11/08 15:23:55 [D] [roles.go:98] NewRole: &{4 cc cc 2017-11-08 15:23:55.657773151 +0800 CST} 
+2017/11/08 15:23:55 [E] [roles.go:101] InsertRole: Error 1062: Duplicate entry '4' for key 'PRIMARY' 
+2017/11/08 15:24:09 [D] [roles.go:162] QueryVal: map[] 
+2017/11/08 15:24:09 [D] [roles.go:163] QueryOp: map[] 
+2017/11/08 15:24:09 [D] [roles.go:171] Order: map[] 
+2017/11/08 15:24:09 [D] [roles.go:181] Limit: 10 
+2017/11/08 15:24:09 [D] [roles.go:191] Offset: 0 
+2017/11/08 15:24:09 [D] [roles.go:148] sqlStr: SELECT id, name, password, reg_date FROM roles LIMIT 10 
+2017/11/08 15:24:09 [D] [roles.go:199] GetAllRole: &[{1 admin admin 2017-11-07 15:00:47 +0800 CST} {2 a a 2017-11-08 11:25:40 +0800 CST} {3 b b 2017-11-08 11:25:51 +0800 CST} {4 cc cc 2017-11-08 14:58:10 +0800 CST}] 
+2017/11/08 15:24:09 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    952.942µs|   match|[44m GET     [0m /v1/roles   r:/v1/roles/
+2017/11/08 15:24:46 [D] [roles.go:162] QueryVal: map[name:b] 
+2017/11/08 15:24:46 [D] [roles.go:163] QueryOp: map[name:=] 
+2017/11/08 15:24:46 [D] [roles.go:171] Order: map[] 
+2017/11/08 15:24:46 [D] [roles.go:181] Limit: 10 
+2017/11/08 15:24:46 [D] [roles.go:191] Offset: 0 
+2017/11/08 15:24:46 [D] [roles.go:148] sqlStr: SELECT id, name, password, reg_date FROM roles WHERE name = 'b' LIMIT 10 
+2017/11/08 15:24:46 [D] [roles.go:199] GetAllRole: &[{3 b b 2017-11-08 11:25:51 +0800 CST}] 
+2017/11/08 15:24:46 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    975.361µs|   match|[44m GET     [0m /v1/roles   r:/v1/roles/
+2017/11/08 15:37:57 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    571.868µs|   match|[44m GET     [0m /login   r:/login
+2017/11/08 15:37:59 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    710.611µs|   match|[44m GET     [0m /login   r:/login
+2017/11/08 15:38:02 [D] [users.go:76] ParseLoginForm: &{13508712076 12345678} 
+2017/11/08 15:38:02 [D] [users.go:96] UserInfo: &{13508712076 张三 47eb3087f3fa6cc7bb3d07c278c10237d24de67297fa0ce37f9e81c2036c020206096e064353c0315453b4b8cfadc66634d48a1b3c4cff8f0566dc0ffe4afa45 12c662cdb66016f092a02b51e321934736ae91e2487837f1fb6c7c5a7a8aecb8c94158d02f7d1c0555403e206e1c55342d546700dabbf8b87489f0e45f377195 2017-11-08 11:00:20.082 +0800 CST} 
+2017/11/08 15:38:02 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  57.134708ms|   match|[46m POST    [0m /v1/users/login   r:/v1/users/login
+2017/11/08 15:45:01 [D] [users.go:31] ParseRegsiterForm: &{1 liu 1} 
+2017/11/08 15:45:01 [D] [users.go:34] ValidRegsiterForm: Phone.Mobile:Must be valid mobile number; 
+2017/11/08 15:45:01 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    533.337µs|   match|[46m POST    [0m /v1/users/register   r:/v1/users/register
+2017/11/08 15:45:06 [D] [users.go:31] ParseRegsiterForm: &{231 liu 1} 
+2017/11/08 15:45:06 [D] [users.go:34] ValidRegsiterForm: Phone.Mobile:Must be valid mobile number; 
+2017/11/08 15:45:06 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    530.088µs|   match|[46m POST    [0m /v1/users/register   r:/v1/users/register
+2017/11/08 15:45:14 [D] [users.go:31] ParseRegsiterForm: &{1234567890 liu 1} 
+2017/11/08 15:45:14 [D] [users.go:34] ValidRegsiterForm: Phone.Mobile:Must be valid mobile number; 
+2017/11/08 15:45:14 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    426.674µs|   match|[46m POST    [0m /v1/users/register   r:/v1/users/register
+2017/11/08 15:45:24 [D] [users.go:31] ParseRegsiterForm: &{111222333444 liu 1} 
+2017/11/08 15:45:24 [D] [users.go:34] ValidRegsiterForm: Phone.Mobile:Must be valid mobile number; 
+2017/11/08 15:45:24 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    523.137µs|   match|[46m POST    [0m /v1/users/register   r:/v1/users/register
+2017/11/08 15:45:30 [D] [users.go:31] ParseRegsiterForm: &{11122233344 liu 1} 
+2017/11/08 15:45:30 [D] [users.go:34] ValidRegsiterForm: Phone.Mobile:Must be valid mobile number; 
+2017/11/08 15:45:30 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    539.842µs|   match|[46m POST    [0m /v1/users/register   r:/v1/users/register
+2017/11/08 15:45:42 [D] [users.go:31] ParseRegsiterForm: &{1 zhang 1} 
+2017/11/08 15:45:42 [D] [users.go:34] ValidRegsiterForm: Phone.Mobile:Must be valid mobile number; 
+2017/11/08 15:45:42 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    614.184µs|   match|[46m POST    [0m /v1/users/register   r:/v1/users/register
+2017/11/08 15:45:50 [D] [users.go:31] ParseRegsiterForm: &{11112222333 zhang 1} 
+2017/11/08 15:45:50 [D] [users.go:34] ValidRegsiterForm: Phone.Mobile:Must be valid mobile number; 
+2017/11/08 15:45:50 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|     448.69µs|   match|[46m POST    [0m /v1/users/register   r:/v1/users/register
+2017/11/08 15:45:55 [D] [users.go:31] ParseRegsiterForm: &{11112222333 zhang 12345} 
+2017/11/08 15:45:55 [D] [users.go:34] ValidRegsiterForm: Phone.Mobile:Must be valid mobile number; 
+2017/11/08 15:45:55 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|     451.25µs|   match|[46m POST    [0m /v1/users/register   r:/v1/users/register
+2017/11/08 15:46:10 [D] [users.go:31] ParseRegsiterForm: &{15882452251 zhang 12345} 
+2017/11/08 15:46:10 [D] [users.go:48] NewUser: &{15882452251 zhang 2ade46a6cbd8bc97f1653fb714db56c55c6acff6795549ee17c6bab159d497c6741b2be7742f09cdae25e2a4a7fa8e45fb2bbb34e790d2cc5288d5e1601d3a01 9127abd74315f4a0083f1b8882756dea6e2af29166775414119e4ba0627d9d20216909ee1edbee214647c0b4471a7b3d03490c2623491fd5b926e95ff9d2d39e 2017-11-08 15:46:10.846858998 +0800 CST} 
+2017/11/08 15:46:10 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  51.917276ms|   match|[46m POST    [0m /v1/users/register   r:/v1/users/register
+2017/11/08 15:46:10 [D] [statistics.go:32] MULTI HINCRBY for new user registeration reply: [3 3 3 3] 
